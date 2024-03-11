@@ -1,0 +1,48 @@
+.navbar2{
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.5);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ 
+}
+
+.imgLogo{
+    width: 97px;
+    height: 37px;
+    margin-left: 30px;
+
+    
+}
+
+.navbarButtons2{
+    display: flex;
+    gap: 65px;
+    padding: 50px;
+}
+
+.navbarButtons2 > button {
+    background-color: transparent;
+
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.navbarButtons2 > button:hover {
+    
+    background-color: rgba(182, 194, 228, 0.2);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}

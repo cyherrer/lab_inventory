@@ -1,0 +1,18 @@
+.mainPage{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    
+   
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+   
+}
+
+.table{
+    color: white;
+
+}

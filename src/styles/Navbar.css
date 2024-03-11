@@ -1,0 +1,18 @@
+.navbar1{
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+ 
+}
+
+.imgLogo1{
+    width: 97px;
+    height: 37px;
+    margin-left: 30px;
+}
