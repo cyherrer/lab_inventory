@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
 import '../styles/Navbar2.css'
-
+import  data from '../data.json'
 
 export const NavbarComplete = () => {
 
   const onclickButton = () =>{
-    alert('Hello world')
+  alert('Hello')
   }
 
     return (

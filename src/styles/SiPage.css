@@ -11,8 +11,29 @@
     z-index: 2;
    
 }
-
-.table{
-    color: white;
-
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    
 }
+
+.content {
+    background-color: #f0f0f0;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin-top: 30vh; 
+}
+
+th {
+    font-size: medium;
+}
+
+
+
