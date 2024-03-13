@@ -6,8 +6,10 @@ import  data from '../data.json'
 export const NavbarComplete = () => {
 
   const onclickButton = () =>{
-  alert('Hello')
+  console.log(data);
   }
+
+
 
     return (
       <div className="navbar2">

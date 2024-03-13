@@ -8,9 +8,9 @@ export const App = () => {
    <>
    
    <Routes>
-    
+    //* if the path is '/' send the user to main page
     <Route path='/' element={<Mainpage/>}/>
-    
+    //* Route for SI table
     <Route path='/si' element={<SiComponent/>}/>
 
 
