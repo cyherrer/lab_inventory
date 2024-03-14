@@ -3,6 +3,7 @@ import logo from '../images/logo.png'
 import '../styles/Navbar2.css'
 import  data from '../data.json'
 
+
 export const NavbarComplete = () => {
 
   const onclickButton = () =>{
